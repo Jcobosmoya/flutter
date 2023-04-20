@@ -1,0 +1,29 @@
+name: frenzy_1
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # dependencias para login en google
+  google_sign_in: ^5.2.1
+  firebase_auth: ^3.0.2
+  flutter_facebook_auth: ^4.0.0
+  image_picker: ^0.8.4+4
+  firebase_core: ^1.10.4
+  flutter_signin_button: ^2.0.0
+  font_awesome_flutter: ^9.2.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
